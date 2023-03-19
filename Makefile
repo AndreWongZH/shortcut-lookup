@@ -3,7 +3,7 @@ CXXFLAGS = -Wall -Wextra
 
 LDFLAGS = -lncurses
 
-SRCS = main.cpp
+SRCS = main.cpp helper.cpp
 EXE = slu
 
 all: $(EXE)
