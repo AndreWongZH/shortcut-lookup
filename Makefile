@@ -1,9 +1,9 @@
 CXX = g++
-CXXFLAGS = -Wall -Wextra
+CXXFLAGS = -Wall -Wextra -fsanitize=address -fno-omit-frame-pointer
 
-LDFLAGS = -lncurses
+LDFLAGS = -lncurses -lasan
 
-SRCS = main.cpp helper.cpp
+SRCS = main.cpp helper.cpp helper.hpp fileparser.cpp fileparser.hpp window.cpp window.hpp
 EXE = slu
 
 all: $(EXE)

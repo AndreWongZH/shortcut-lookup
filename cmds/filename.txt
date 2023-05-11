@@ -1,5 +1,0 @@
-[zsh]
-[git]
-gst;git status
-ga; git add
-gc -m ""; git commit with message

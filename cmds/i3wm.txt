@@ -1,0 +1,3 @@
+[i3wm]
+window + arrow left  ; move to the left window
+window + arrow right  ; move to the right window
